@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+// @import url(variables.scss);
+
+@use "variables" as *;
+
+
+
+app-root{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+// @font-face {
+//     font-family: ;
+//     src: url();
+// }
+
+
+.c-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    appearance: none;
+    background-color: $s-color-00FFB2;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: $button-font-0;
+    margin: 5px;
+    &--medium{
+        font-size: $button-font-1;
+    }
+    &--big{
+        font-size: $button-font-2;
+    }
+    &--alert{
+        background-color: $alerta;
+    }
+    &--border-big{
+        border-radius:$s-border-big;
+    }
+    &--border-medium{
+        border-radius:$s-border-medium;
+    }
+}

@@ -75,6 +75,17 @@ console.debug(`json: ${globalTokens}`);
 // };
 
 
+const fs = require('fs');
+const json = JSON.parse(fs.readFileSync('src/tokens.json', 'utf8'));
+
+// const jsonData = Object.getOwnPropertyNames(JSON.parse(fs.readFileSync('src/tokens.json', 'utf8')));
+
+// const jsons = ...json;
+
+let scss = '';
+let scssFontClass = '';
+let i = 0;
+
 
 
 
@@ -88,7 +99,6 @@ for (let key in json.$metadata.tokenSetOrder) {
         console.debug(`Token: ${key}`);
             let i = 0;
             let value = tokenSet[key].value;
-            // let expr = json.global[key].value;
             let desc = tokenSet[key].description;
             let type = tokenSet[key].type;
             

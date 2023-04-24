@@ -1,0 +1,54 @@
+$s-color-00FFB2: #00ffb2;
+$alerta: #ff0000;
+$desabilitado: #afafaf;
+$button-font-0: 14px;
+$button-font-1: 16px;
+$button-font-2: 18px;
+$letterSpacing-0: 10%;
+$paragraphSpacing-0: 0;
+$textCase-none: none;
+$textDecoration-none: none;
+$paragraphIndent-0: 0px;
+$s-border-default: 0px;
+$s-border-medium: 10px;
+$s-border-big: 50px;
+$lineHeights-0: AUTO;
+$fontWeights-inter-0: Black;
+$fontFamilies-inter: 'Inter', sans-serif;
+$texto-defecto-fontFamily: inter;
+$texto-defecto-fontWeight: inter-0;
+$texto-defecto-lineHeight: 0;
+$texto-defecto-fontSize: 0;
+$texto-defecto-letterSpacing: 0;
+$texto-defecto-paragraphSpacing: 0;
+$texto-defecto-paragraphIndent: 0;
+$texto-defecto-textCase: none;
+$texto-defecto-textDecoration: none;
+$texto-medio-fontFamily: inter;
+$texto-medio-fontWeight: inter-0;
+$texto-medio-lineHeight: 0;
+$texto-medio-fontSize: 1;
+$texto-medio-letterSpacing: 0;
+$texto-medio-paragraphSpacing: 0;
+$texto-medio-paragraphIndent: 0;
+$texto-medio-textCase: none;
+$texto-medio-textDecoration: none;
+$texto-grande-fontFamily: inter;
+$texto-grande-fontWeight: inter-0;
+$texto-grande-lineHeight: 0;
+$texto-grande-fontSize: 2;
+$texto-grande-letterSpacing: 0;
+$texto-grande-paragraphSpacing: 0;
+$texto-grande-paragraphIndent: 0;
+$texto-grande-textCase: none;
+$texto-grande-textDecoration: none;
+
+@font-face {
+   font-family: 'Inter', sans-serif;
+   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+
+@font-face {
+   font-family: 'Inter', sans-serif;
+   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
